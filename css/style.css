@@ -129,8 +129,8 @@ article {
 }
 
 .sectionContent {
-	float: right;
-	width: 62.5%;
+	float: left;
+	width: 100%;
 }
 
 .sectionTitle h1 {
@@ -303,6 +303,10 @@ article {
 }
 
 @media print {
+    .page-break {
+		display: none;
+	}
+	
     #cv {
         width: 100%;
     }
